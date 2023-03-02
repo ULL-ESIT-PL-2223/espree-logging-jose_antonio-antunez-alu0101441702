@@ -5,7 +5,20 @@
 
 ...
 
-## Indicar los valores de los argumentos
+## CLI con [Commander.js](https://www.npmjs.com/package/commander)
+
+```javascript
+program
+  .version(version)
+  .argument("<filename>", 'file with the original code')
+  .option("-o, --output <filename>", "file in which to write the output")
+  .action((filename, options) => {
+    transpile(filename, options.output);
+  });
+program.parse(process.argv);
+```
+
+## Indicar los valores de los argumentos, soportar funciones flecha y añadir el número de línea
 
 Se ha modificado el código de `logging-espree.js` para que el log también indique los valores de los argumentos que se pasaron a la función. 
 Ejemplo:
@@ -31,18 +44,6 @@ function foo(a, b) {
 }
 foo(1, 'wut', 3);
 ```
-
-## CLI con [Commander.js](https://www.npmjs.com/package/commander)
-
-...
-
-## Reto 1: Soportar funciones flecha
-
-...
-
-## Reto 2: Añadir el número de línea
-
-...
 
 ## Tests and Covering
 
