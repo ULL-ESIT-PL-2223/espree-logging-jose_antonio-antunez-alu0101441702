@@ -3,6 +3,8 @@
 
 ## Description of the project, how to use
 
+To install use: npm i @joseantpul/espree-logging-solution
+
 Transpiler for JavaScript, adds console.log at the beggining of functions with information such as name of the function we are entering, line of the function and parameters passed.
 
 To use it we just call bin/log.js passing as argument the file with the code.
