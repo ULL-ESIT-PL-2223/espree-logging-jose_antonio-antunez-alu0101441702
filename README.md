@@ -82,3 +82,29 @@ at the start of functions
 ### Parameters
 
 *   `code` **[string][7]**&#x20;
+
+Returns **any** AST of the code with the console.log's added
+
+## addBeforeCode
+
+Adds console.log to the node of the function (passed by reference because its an object)
+
+### Parameters
+
+*   `node` **[object][8]** AST node of a function
+
+[1]: #transpile
+
+[2]: #parameters
+
+[3]: #addlogging
+
+[4]: #parameters-1
+
+[5]: #addbeforecode
+
+[6]: #parameters-2
+
+[7]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
+
+[8]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
