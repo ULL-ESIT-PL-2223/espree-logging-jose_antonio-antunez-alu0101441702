@@ -1,5 +1,5 @@
 {
-    "name": "@joseantpul/espree-logging-solution",
+    "name": "@alu0101441702/espree-logging-solution",
     "author": {
         "name": "Jose Antonio Antunez Pulido",
         "email": "alu0101441702@ull.edu.es",
@@ -31,7 +31,8 @@
     "devDependencies": {
         "c8": "^7.13.0",
         "documentation": "^14.0.1",
-        "mocha": "^10.2.0"
+        "mocha": "^10.2.0",
+        "nyc": "^15.1.0"
     },
     "licenses": [
         {

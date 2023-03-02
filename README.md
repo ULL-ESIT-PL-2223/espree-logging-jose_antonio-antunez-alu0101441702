@@ -48,6 +48,16 @@ foo(1, 'wut', 3);
 
 ...
 ## Publicación como paquete npm
+ 1) Darse de alta en npm
+ 2) npm adduser
+ 3) Comprobamos que estamos loggeados
+ 4) package.json (repo, name con scope (nombre de usuario)...)
+ 5) npm publish --access public
+...
+## Scripts en package.json
+
+...
+## Github Actions
 
 ## Documentación
 
