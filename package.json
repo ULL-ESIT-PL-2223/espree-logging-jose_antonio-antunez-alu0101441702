@@ -8,7 +8,7 @@
     },
     "scripts": {
         "test": "mocha test/test.mjs",
-        "cov": "nyc npm run test"
+        "cov": "c8 npm run test"
     },
     "dependencies": {
         "acorn": "^8.8.2",
@@ -18,8 +18,9 @@
         "estraverse": "^5.2.0",
         "underscore": "^1.12.0"
     },
-    "version": "0.3.0",
+    "version": "0.8.0",
     "devDependencies": {
+        "c8": "^7.13.0",
         "mocha": "^10.2.0",
         "nyc": "^15.1.0"
     }
